@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>كبارية السفلة</title>
+</head>
+<body class="white-theme">
+    <section class="hero">
+        <header>
+            <nav>
+                <a href="#" class="logo"><span>كبارية </span> السفلة</a>
+                <div class="nav-links">
+                    <a href="#">الدوام</a>
+                    <a href="#">الطلعات</a>
+                    <a href="#">الوكالات</a>
+                    <a href="https://t.snapchat.com/0MLRI0wP">الانضمام</a>
+                </div>
+
+                <span><i class="fa-solid fa-sun btn-mode"></i></span>
+            </nav>
+        </header>
+        
+        <div class="container">
+            <div class="div-text">
+                <h4>قروب سناب شات</h4>
+                <h1> كبارية السفلة</h1>
+                <span>شروط الانضمام </span>
+                <p>ان يكون المتقدم من اصحاب السوابق وان يبلغ من العمر ١٨ عاما</p>
+                <a href="#" class="btn">الانضمام</a>
+            </div>
+            <div class="dev-img">
+                <img src="/ali-1.png">
+            </div>
+
+            <div class="social-icon">
+                    <a href="#"><i class="fa-brands fa-square-whatsapp" style="color: #2fc162;"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-snapchat" style="color: #fcff47;"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" style="color: rgb(0, 170, 255);"></i></a>
+            </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        var btnMode = document.querySelector('.btn-mode');
+        btnMode.onclick = function(){
+            document.body.classList.toggle("white-theme")
+            btnMode.classList.toggle("fa-sun")
+            btnMode.classList.toggle("fa-moon")
+        }
+    </script>
+</body>
+</html>              
